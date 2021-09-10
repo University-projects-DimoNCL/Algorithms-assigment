@@ -1,0 +1,46 @@
+Grade  - 84% (42/50)
+Feedback:
+Individual Feedback for "Assignment 2"
+Task 1: Display Sheet’s content:
+Good design and implementation of the method to display the content of your sheet.
+
+Task2: Generating suitable integers:
+Very good use of random generator methods in your program to generate data for the list of shapes.
+Very good, you consider not generating shapes with a height/width of 0.
+Very good, the size of the generated shapes is smaller or equal to the sheet’s size. 
+
+Task3: Implementing algorithms:
+Excellent implementation of the Next-Fit algorithm.
+Excellent implementation of the First-Fit algorithm.
+Good implementation of the rules for placing the shapes.
+
+Task 4: Correctness Testing: 
+You successfully show that your code works as expected in your test class.
+Excellent, you did a thorough testing by checking that the shape is placed in the right shelf and the right sheet.
+Your comments on the test class indicate what is being tested as well as the expected behaviour, but it does not summarise the expected result (i.e., number of sheets and shelf used).
+You should explicitly state the expected result, so it is easier for the tester to match your comment with the output of the testing code. Alternatively, consider using Junit where you assert expected results with actual results.
+
+Task 5: Performance Testing:
+Test Class: Excellent implementation of the test class that calls the two algorithms. You ensured a fair comparison by using the same inputs for each algorithm. Good, you run the test multiple times for different list of shapes’ size and different replications.
+
+Time: A good set of performance measurements which correctly timed the running of the algorithms. Good use of tables to summarise your time result but the layout could be enhanced.
+
+Number of sheets: You successfully calculated total number of sheets that is able to fulfil all the customer requests. In your table, you show that nextfit uses the same number of sheets as firstfit which is not correct.
+
+Your comment for this task is too generic. Add more details by referring to your program results with explicit numerical comparison to make comments that are unique to your results.
+
+Task 6: Sorting Testing:
+Excellent implementation of the test class that calls the algorithms with unsorted and sorted list of shapes (in both decreasing and increasing order).
+Good use of tables to summarise the results, but it would be better to put all the results related to Nextfit in one table and all the results related to firstfit in another for easy comparison.
+You have stated what type of sorting was most useful for Next Fit and First Fit but you did not provide a reason for that (e.g. putting all the larger shapes at the start using this type of sorting makes it possible to insert the smaller shapes in between).
+
+Should be able to re-run the test for different list of shapes (currently we have to manually change the size of the list of shapes to do that
+
+Code Quality:
+Very nicely written code which follows good programming practice.
+Good header comment giving author and date information.
+You could have added more comments to SortedTest class and PerformanceTest class.
+Good use of indentation throughout your code.  
+Good use of variable names
+
+Mr H Salim
